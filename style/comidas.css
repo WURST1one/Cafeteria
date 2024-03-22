@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+body {
+    background: linear-gradient(to right, #F1E7CB, #A8D1B5);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #8C5E35; 
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box {
+    margin-right: 20px;
+    
+}
+
+
+.search-input {
+    padding: 6px;
+    border: none;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.line {
+    width: 80%;
+    position: relative;
+    top: 50px;
+    display: block;
+    
+    
+}   
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+    border: 2px black;
+    position: relative;
+    margin: 0 70px;   
+    font-size: 40px;
+    font-family: 'Just Me Again Down Here', cursive;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+    
+}
+
+
+.icons2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icons2 a{
+    text-decoration: none;
+    color: black;
+    border: 2px black;
+    position: relative;
+    margin: 0 10%;   
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Just Me Again Down Here', cursive;
+   
+}
+
+
+
+p {
+    max-width: 100%; /* Garante que o texto não ultrapasse o contêiner */
+}
+
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the values as needed */
+    gap: 20px; /* Adjust the gap between columns */
+}
+
+.image-container {
+    text-align: center;
+    border: 1px solid #ccc; /* Optional: Add a border for separation */
+    border-radius: 10px;
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.image {
+    max-width: 100%;
+    height: 90%;
+    border-radius: 8px;
+    
+}
+
+.image-container:hover,
+.image:hover {
+    transform: scale(1.1); /* Ajuste o valor conforme necessário para o nível de zoom desejado */
+}
+
+
+

@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    
+    background-color: #8C5E35; 
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box {
+    margin-right: 20px;
+    
+}
+
+
+.search-input {
+    padding: 6px;
+    border: none;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.line {
+    width: 80%;
+    position: relative;
+    top: 50px;
+    display: block;
+    
+    
+}   
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a{
+    text-decoration: none;
+    color: white;
+    border: 2px black;
+    position: relative;
+    margin: 0 70px;   
+    font-size: 40px;
+    font-family: 'Just Me Again Down Here', cursive;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Pacifico', cursive;
+
+}
+
+.section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    
+}
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+    
+}   
+
+h2 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+p {
+    max-width: 90%;
+    padding: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tsukimi Rounded', sans-serif; 
+}
+
+
+.footer {
+    width: 100%;
+    height: 50%;
+    background-color: #8C5E35;
+}
+  
